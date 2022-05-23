@@ -1,0 +1,47 @@
+/*Style page index.html*/
+.center{
+    text-align:center;
+}
+
+.justify{
+    text-align:justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 40px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
+
+#menu li a:hover{
+    color: royalblue;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-20{
+    border-radius: 20%;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Style page subunits.html*/
